@@ -1,0 +1,76 @@
+h1 {text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;}
+    div {text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    display: inline-block;}
+    p {text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    }
+    body {
+        background-image: url("https://media1.tenor.com/m/HJyepHmwvuAAAAAC/waiting-boy.gif");
+        background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+       }
+    .d_1 {font-size: 4em;
+        border-style: solid;
+        border-color: black;
+        border-radius: 50%;
+        height: 65px;
+        width: 65px;
+        position: relative;
+        left: 38%;
+        right: 50%;
+        padding: 20px;
+        margin: 20px;
+        animation: myAnim_1 1s linear 0s 1 normal forwards;}
+    @keyframes myAnim_1 {
+        0% {
+            opacity: 0;
+            transform: translateX(-250px) rotate(-200deg);
+        }
+    
+        100% {
+            opacity: 1;
+            transform: translateX(0) rotate(0deg);
+        }
+    }
+    
+    .d_2 {font-size: 4em;
+        border-style: solid;
+        border-color: black;
+        border-radius: 50%;
+        height: 65px;
+        width: 65px;
+        position: absolute;
+        left: 45.5%;
+        right: 50%;
+        padding: 20px;
+        margin: 20px;
+    }
+    
+    .d_3 {font-size: 4em;
+        border-style: solid;
+        border-color: black;
+        border-radius: 50%;
+        height: 65px;
+        width: 65px;
+        position: relative;
+        left: 43.5%;
+        right: 38%;
+        padding: 20px;
+        margin: 20px;
+        animation: myAnim_3 1s linear 0s 1 normal forwards;}
+        @keyframes myAnim_3 {
+            0% {
+                opacity: 0;
+                transform: translateX(250px) rotate(200deg);
+            }
+        
+            100% {
+                opacity: 1;
+                transform: translateX(0) rotate(0deg);
+        }}
